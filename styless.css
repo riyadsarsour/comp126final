@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(173, 173, 173);
+  padding: 0;
+  margin: 0;
+}
+
+#head,
+#foot {
+  display: inline;
+}
+
+#nav {
+  background-color: rgb(245, 225, 184);
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  font-size: x-large;
+  color: black;
+}
+
+.card {
+  background-color: rgb(232, 215, 248);
+}
+.row {
+  gap: 2%;
+}
+
+h4 {
+  display: stretch;
+  font-size: x-large;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.foot {
+  background-color: rgb(245, 225, 184);
+  margin: 0.1%;
+  padding: 2%;
+}
+
+#foot {
+  background-color: rgb(245, 225, 184);
+}
