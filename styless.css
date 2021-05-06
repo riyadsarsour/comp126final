@@ -56,6 +56,28 @@ h4 {
 }
 
 img {
-  width: 60%;
+  width: 70%;
   height: 60%;
+}
+
+#img2 {
+  font-size: 100px;
+  offset-path: path("M20,20 C20,100 200,0 200,100");
+  animation: movingAnimation 5s linear infinite;
+  position: center;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes movingAnimation {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+#h2 {
+  color: rgb(245, 225, 184);
 }
