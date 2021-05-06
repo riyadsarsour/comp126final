@@ -81,3 +81,7 @@ img {
 #h2 {
   color: rgb(245, 225, 184);
 }
+
+.aboutCard {
+  background-color: beige;
+}
